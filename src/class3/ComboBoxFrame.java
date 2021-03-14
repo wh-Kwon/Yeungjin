@@ -1,5 +1,4 @@
-package class2;
-
+package class3;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;

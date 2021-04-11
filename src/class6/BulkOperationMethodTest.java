@@ -23,7 +23,7 @@ public class BulkOperationMethodTest {
 		intersection.retainAll(s2);
 		
 		Set<String> differenceOfSet = new HashSet<String>(s1);
-		differenceOfSet.remove(s2);
+		differenceOfSet.removeAll(s2);
 		
 		System.out.println("합집합 " + union);
 		System.out.println("교집합 " + intersection);
